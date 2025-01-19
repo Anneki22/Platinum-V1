@@ -186,20 +186,20 @@ astro_patch.cmd(
 smd(
   {
     pattern: "ping",
-    react: "❄️",
+    react: "✨",
     desc: "Ping response with speed.",
     category: "misc",
     filename: __filename,
   },
   async (message) => {
-    var startTime = new Date().getTime();
-    const { key } = await message.reply("ąҍօѵҽ ąӀӀ ☠️👑");
+    const startTime = performance.now();
+    const { key } = await message.reply("*Calculating speed...*");
 
-    // Wait briefly for effect
-    await new Promise((r) => setTimeout(r, 1500));
+    // Calculate response speed
+    const speed = Math.round(performance.now() - startTime);
 
-    var speed = new Date().getTime() - startTime;
-    await message.send(`Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍: ${speed} ms ⚡`, { edit: key });
+    // Send edited response with the calculated speed
+    await message.send(`*Pʟᴀᴛɪɴᴜᴍ-V1*: *${speed} ms* ⚡`, { edit: key });
   }
 );
 astro_patch.cmd(
