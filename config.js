@@ -40,9 +40,8 @@ global.read_status_from = process.env.READ_STATUS_FROM || "2348077825595";
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://arthur-scanner.onrender.com/";
 
-global.SESSION_ID =
-  process.env.SESSION_ID ||
-  ""
+global.SESSION_ID = process.env.SESSION_ID || ""
+
 module.exports = {
   menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || "X",
