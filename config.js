@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeW5Tw4yltQ
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeW5Tw4yltQOYIO5E2D";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/gvdQSvi.jpeg";
 global.devs = "2348084644182";
-global.sudo = process.env.SUDO || "2349071978357";
-global.owner = process.env.OWNER_NUMBER || "2348084644182";
+global.sudo = process.env.SUDO || "";
+global.owner = process.env.OWNER_NUMBER || "2348077825595";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -44,14 +44,14 @@ global.SESSION_ID = process.env.SESSION_ID || ""
 
 module.exports = {
   menu: process.env.MENU || "2",
-  HANDLERS: process.env.PREFIX || "!",
+  HANDLERS: process.env.PREFIX || "X",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍™",
   author: process.env.PACK_AUTHER || "ąҍօѵҽ ąӀӀ ☠️👑🌍",
   packname: process.env.PACK_NAME || "ąҍօѵҽ ąӀӀ ☠️👑🌍",
   botname: process.env.BOT_NAME || "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍",
-  ownername: process.env.OWNER_NAME || "ᴀʙᴏᴠᴇ ᴀʟʟ ☠️👑🌍",
+  ownername: process.env.OWNER_NAME || "死_ＮＥＭＥＳ１X♠️",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
