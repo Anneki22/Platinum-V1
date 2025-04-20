@@ -55,7 +55,7 @@ function sleep(ms) {
 
 // Command handler with unique theme
 astro_patch.smd({
-  'cmdname': "menu",
+  'cmdname': "arise",
   'desc': "Displays a stylish, readable command list",
   'react': '🎨',
   'type': 'user',
@@ -64,7 +64,7 @@ astro_patch.smd({
   try {
     // Display loading messages
     const loadingMessages = [
-      "🔄 Gathering your commands, please wait..."];
+      "🙇AT YOUR SERVICE MY LEIGE👑..."];
     for (const msg of loadingMessages) {
       await context.sendMessage(context.chat, { text: msg });
       await sleep(1000); // Wait for 1 second between messages
